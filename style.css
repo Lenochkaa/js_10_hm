@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+body{
+    background: rgb(15,32,39);
+    background: linear-gradient(180deg, rgba(15,32,39,1) 0%, rgba(32,58,67,1) 50%, rgba(44,83,100,1) 98%) no-repeat;
+    background-attachment: fixed;
+
+}
+/* #div {
+    width: 1000px;
+    height: 1000px;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+/* .box_1 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_3 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_4 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.box_5 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_6 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+#table {
+    border: 1px solid black;
+    margin: 20px auto;
+}
+td:hover{
+    width: 50px;
+    height: 35px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(8, 20, 25, 0.35);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(8, 20, 25, 0.35);
+    box-shadow: 0px 5px 10px 2px rgba(8, 20, 25, 0.35);
+}
+td {
+    border: 1px solid black;
+    padding: 30px 60px;
+    font-size: 17px;
+    color: rgba(147,163,189,1);
+    font-family: 'Roboto Slab', serif;
+    transition: all 1s;
+}
+input.active{
+    padding: 30px 60px;
+    /* background: rgb(147,163,189);
+    background: radial-gradient(circle, rgba(147,163,189,1) 0%, rgba(44,83,100,1) 100%); */
+    border-radius: 40px;
+    border: 1px solid rgba(44,83,100,1);
+    font-size: 20px;
+    color: rgba(147,163,189,1);
+    font-family: 'Roboto Slab', serif;
+    background-color: transparent;
+}
